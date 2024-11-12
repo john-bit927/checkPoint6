@@ -1,0 +1,13 @@
+def count_characters_in_sentence():
+    print("Enter a sentence ending with a period ('.'):")
+    count = 0
+    while True:
+        char = input("Enter a character: ")
+        if char == '.':
+            break
+        count += 1
+    
+    print(f"The number of characters in the sentence is: {count}")
+
+# Run the function
+count_characters_in_sentence()
